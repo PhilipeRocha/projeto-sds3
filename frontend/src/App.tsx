@@ -1,24 +1,9 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>ZA WARUUUUDO COME O TOU MARE</h1>
+      <img src="https://static.jojowiki.com/images/thumb/0/0a/latest/20191015213838/DIO_Normal_SC_Infobox_Anime.png/270px-DIO_Normal_SC_Infobox_Anime.png" alt=""/>
     </div>
   );
 }
