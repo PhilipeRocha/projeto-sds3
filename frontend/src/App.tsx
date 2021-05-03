@@ -1,10 +1,18 @@
+import NavBar from 'components/NavBar'
+import Footer from 'components/Footer'
+import DataTable from 'components/DataTable'
 
 function App() {
   return (
-    <div className="App">
-      <h1 className="text-primary">ZA WARUUUUDO COME O TOU MARE</h1>
-      <img src="https://static.jojowiki.com/images/thumb/0/0a/latest/20191015213838/DIO_Normal_SC_Infobox_Anime.png/270px-DIO_Normal_SC_Infobox_Anime.png" alt="" />
-    </div>
+    <>
+      <NavBar />
+      <div className="container">
+        <h1 className="text-primary">ZA WARUUUUDO COME O TOU MARE</h1>
+      </div>
+      <DataTable />
+      <Footer />
+
+    </>
   );
 }
 
